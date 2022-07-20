@@ -1,0 +1,111 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "description": "Terror"
+    },
+    {
+      "id": 3,
+      "description": "Ação"
+    },
+    {
+      "id": 11,
+      "description": "Drama"
+    },
+    {
+      "id": 12,
+      "description": "SciFi"
+    },
+    {
+      "id": 13,
+      "description": "Comédia"
+    },
+    {
+      "id": 14,
+      "description": "Romance"
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "description": "Teste"
+    }
+  ],
+  "books": [
+    {
+      "id": 3,
+      "name": "O rei do inferno",
+      "categoryId": 3,
+      "authorId": 2,
+      "publisherId": 1,
+      "price": "49,90",
+      "isbn": "",
+      "quantity": "",
+      "author": {
+        "id": 2,
+        "name": "William Gibson"
+      },
+      "publisher": {
+        "id": 1,
+        "description": "Companhia das letras",
+        "site": "https://www.companhiadasletras.com.br/"
+      }
+    },
+    {
+      "id": 4,
+      "name": "teste",
+      "categoryId": 1,
+      "authorId": 1,
+      "publisherId": 2,
+      "price": "12,15",
+      "isbn": "123",
+      "quantity": 22
+    },
+    {
+      "id": 5,
+      "name": "Neuromancer",
+      "categoryId": 12,
+      "authorId": 2,
+      "publisherId": 2,
+      "price": "29,90",
+      "isbn": "123-345-654",
+      "quantity": 5
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "JRR Tolkien"
+    },
+    {
+      "id": 2,
+      "name": "William Gibson"
+    },
+    {
+      "id": 3,
+      "name": "Ernest Cline"
+    },
+    {
+      "id": 4,
+      "name": "teste"
+    }
+  ],
+  "publishers": [
+    {
+      "id": 1,
+      "description": "Companhia das letras",
+      "site": "https://www.companhiadasletras.com.br/"
+    },
+    {
+      "id": 2,
+      "description": "Aleph",
+      "site": "https://editoraaleph.com.br/"
+    },
+    {
+      "id": 3,
+      "description": "nova",
+      "site": "https://editoraaleph.com.br/"
+    }
+  ],
+  "shoppingCart": []
+}
